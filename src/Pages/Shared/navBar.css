@@ -1,0 +1,48 @@
+a {
+  color: #3498db;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+header .hero img {
+  width: 100%;
+  background-size: "100%,cover";
+}
+
+nav.main_nav {
+  min-height: 60px;
+  position: sticky;
+  top: 0;
+}
+nav.main_nav .main_nav_wrap {
+  width: 100%;
+  display: block;
+  background-color: #414141;
+}
+nav.main_nav .main_nav_wrap ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+}
+nav.main_nav .main_nav_wrap ul li a {
+  font-size: 1.2rem;
+  padding: 20px;
+  display: block;
+  color: #fff;
+}
+nav.main_nav .main_nav_wrap ul li a:hover {
+  text-decoration: none;
+  background-color: #5b5b5b;
+}
+
+.page_wrap {
+  width: 95%;
+  max-width: 1000px;
+  display: block;
+  margin: 0 auto;
+}
